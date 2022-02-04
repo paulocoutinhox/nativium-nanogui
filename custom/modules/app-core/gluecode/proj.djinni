@@ -1,0 +1,4 @@
+application_core = interface +c {
+    static shared(): application_core;
+    get_version(): string;
+}
