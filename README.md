@@ -34,7 +34,7 @@ https://github.com/paulo-coutinho/nativium
 Execute the following commands to build for Linux:
 
 ```
-git clone https://github.com/paulo-coutinho/nativium.git nativium
+git clone https://github.com/nativium/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target linux prepare
@@ -47,7 +47,7 @@ python nativium.py target linux run
 Execute the following commands to build for macOS:
 
 ```
-git clone https://github.com/paulo-coutinho/nativium.git nativium
+git clone https://github.com/nativium/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target macos prepare
@@ -60,7 +60,7 @@ python nativium.py target macos run
 Execute the following commands to build for Windows:
 
 ```
-git clone https://github.com/paulo-coutinho/nativium.git nativium
+git clone https://github.com/nativium/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target windows prepare
@@ -75,7 +75,7 @@ Obs: On Windows the terminal needs to be opened as `administrator`, otherwise th
 Execute the following commands to build for Web Assembly (WASM):
 
 ```
-git clone https://github.com/paulo-coutinho/nativium.git nativium
+git clone https://github.com/nativium/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target wasm prepare

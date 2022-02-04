@@ -35,7 +35,7 @@ clean:
 
 nativium:
 	@rm -rf nativium
-	@git clone https://github.com/paulo-coutinho/nativium.git nativium
+	@git clone https://github.com/nativium/nativium.git nativium
 
 custom-install:
 	@cd nativium && python nativium.py custom install --path=${ROOT_DIR}/custom
