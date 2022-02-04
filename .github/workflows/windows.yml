@@ -41,7 +41,7 @@ jobs:
           version: "1.10.0"
 
       - name: Nativium - Install
-        run: git clone https://github.com/nativium/nativium.git nativium
+        run: git clone https://github.com/paulo-coutinho/nativium.git nativium
 
       - name: Nativium - Install python dependencies
         working-directory: nativium

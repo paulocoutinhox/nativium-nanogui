@@ -1,7 +1,7 @@
 # Nativium - Nano GUI
 
 <p align="center">
-    <a href="https://github.com/nativium/nativium-nanogui" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/paulo-coutinho/nativium-nanogui" target="_blank" rel="noopener noreferrer">
         <img src="extras/images/screenshot.png" alt="Nativium HTTP Server Screenshot">
     </a>
 </p>
@@ -9,10 +9,10 @@
 <br>
 
 <p align="center">
-    <a href="https://github.com/nativium/nativium-nanogui/actions/workflows/linux.yml"><img src="https://github.com/nativium/nativium-nanogui/actions/workflows/linux.yml/badge.svg"></a>
-    <a href="https://github.com/nativium/nativium-nanogui/actions/workflows/macos.yml"><img src="https://github.com/nativium/nativium-nanogui/actions/workflows/macos.yml/badge.svg"></a>
-    <a href="https://github.com/nativium/nativium-nanogui/actions/workflows/windows.yml"><img src="https://github.com/nativium/nativium-nanogui/actions/workflows/windows.yml/badge.svg"></a>    
-    <a href="https://github.com/nativium/nativium-nanogui/actions/workflows/wasm.yml"><img src="https://github.com/nativium/nativium-nanogui/actions/workflows/wasm.yml/badge.svg"></a>
+    <a href="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/linux.yml"><img src="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/linux.yml/badge.svg"></a>
+    <a href="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/macos.yml"><img src="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/macos.yml/badge.svg"></a>
+    <a href="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/windows.yml"><img src="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/windows.yml/badge.svg"></a>    
+    <a href="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/wasm.yml"><img src="https://github.com/paulo-coutinho/nativium-nanogui/actions/workflows/wasm.yml/badge.svg"></a>
 </p>
 
 <br>
@@ -23,18 +23,18 @@
 
 # General
 
-First of all you need to do the steps of the original [Nativium](https://github.com/nativium/nativium) project.
+First of all you need to do the steps of the original [Nativium](https://github.com/paulo-coutinho/nativium) project.
 
 Visit:
 
-https://github.com/nativium/nativium
+https://github.com/paulo-coutinho/nativium
 
 # Build for Linux
 
 Execute the following commands to build for Linux:
 
 ```
-git clone https://github.com/nativium/nativium.git nativium
+git clone https://github.com/paulo-coutinho/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target linux prepare
@@ -47,7 +47,7 @@ python nativium.py target linux run
 Execute the following commands to build for macOS:
 
 ```
-git clone https://github.com/nativium/nativium.git nativium
+git clone https://github.com/paulo-coutinho/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target macos prepare
@@ -60,7 +60,7 @@ python nativium.py target macos run
 Execute the following commands to build for Windows:
 
 ```
-git clone https://github.com/nativium/nativium.git nativium
+git clone https://github.com/paulo-coutinho/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target windows prepare
@@ -75,7 +75,7 @@ Obs: On Windows the terminal needs to be opened as `administrator`, otherwise th
 Execute the following commands to build for Web Assembly (WASM):
 
 ```
-git clone https://github.com/nativium/nativium.git nativium
+git clone https://github.com/paulo-coutinho/nativium.git nativium
 cd nativium
 python nativium.py custom install --path=../custom
 python nativium.py target wasm prepare
