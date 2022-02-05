@@ -23,11 +23,11 @@
 
 # General
 
-First of all you need to do the steps of the original [Nativium](https://github.com/paulo-coutinho/nativium) project.
+First of all you need to do the steps of the original [Nativium](https://github.com/nativium/nativium) project.
 
 Visit:
 
-https://github.com/paulo-coutinho/nativium
+https://github.com/nativium/nativium
 
 # Build for Linux
 
