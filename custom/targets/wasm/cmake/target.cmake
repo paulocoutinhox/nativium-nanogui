@@ -1,6 +1,9 @@
 # conan
 nativium_add_conan_build_info()
 
+# modules
+nativium_add_modules()
+
 # source
 include(${NATIVIUM_TARGETS_PATH}/${NATIVIUM_TARGET}/cmake/source.cmake)
 
